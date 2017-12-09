@@ -39,35 +39,35 @@ MimeTypeMap mtm= MimeTypeMap.getSingleton();
 Obtêm a extensão do arquivo da URL
 
 ```java
-String ext= MimeTypeMap.getFileExtensionFromUrl("http://norvig.com/big.txt")
+String ext= MimeTypeMap.getFileExtensionFromUrl("http://norvig.com/big.txt");
 ```
 
 Obtêm a extensão do mime-type
 
 ```java
 MimeTypeMap mtm= MimeTypeMap.getSingleton();
-String ext= mtm.getExtensionFromMimeType("text/plain")
+String ext= mtm.getExtensionFromMimeType("text/plain");
 ```
 
 Obtêm o mime-type da extensão
 
 ```java
 MimeTypeMap mtm= MimeTypeMap.getSingleton();
-String type= mtm.getMimeTypeFromExtension("TXT")
+String type= mtm.getMimeTypeFromExtension("TXT");
 ```
 
 Verifica se a biblioteca suporta a extensão
 
 ```java
 MimeTypeMap mtm= MimeTypeMap.getSingleton();
-Boolean hasExt= mtm.hasExtension("TXT")
+Boolean hasExt= mtm.hasExtension("TXT");
 ```
 
 Verifica se a biblioteca suporta o mime-type
 
 ```java
 MimeTypeMap mtm= MimeTypeMap.getSingleton();
-Boolean hasType= mtm.hasMimeType("text/plain")
+Boolean hasType= mtm.hasMimeType("text/plain");
 ```
 
 
