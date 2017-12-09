@@ -16,13 +16,19 @@ Get the latest code from GitHub using Git or download the repository as a ZIP fi
 
 ## Building
 
-You may build the library from the source by simply running
+You may build the library from the source by simply running the command bellow, in the console, from the project root folder.
 
 ```maven
 mvn install
 ```
 
-in the console, from the project root folder. The jar will be created in the "target" folder.
+The following files will be generated in the "target" folder
+
+```
+* mimetypemap-x.x.x.jar
+* mimetypemap-x.x.x-javadoc.jar
+* mimetypemap-x.x.x-sources.jar
+```
 
 
 ## QuickStart

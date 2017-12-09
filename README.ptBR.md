@@ -16,13 +16,18 @@ Obtenha a versão mais recente do código no Github utilizando o Git, ou baixe o
 
 ## Building
 
-Você pode gerar a biblioteca a partir do fonte através de
+Você pode gerar a biblioteca a partir do fonte através do commando abaixo, no console, na pasta-raiz do projeto.
 
 ```maven
 mvn install
 ```
+Os seguintes arquivos serão gerados na pasta "target"
 
-no console, na pasta-raiz do projeto. O jar será criado na pasta "target".
+```
+* mimetypemap-x.x.x.jar
+* mimetypemap-x.x.x-javadoc.jar
+* mimetypemap-x.x.x-sources.jar
+```
 
 
 ## QuickStart
