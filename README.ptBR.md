@@ -78,12 +78,12 @@ Boolean hasType= mtm.hasMimeType("text/plain");
 
 ## Histórico de Mudanças
 
-* Veja [HISTORY.ptBR.md](HISTORY.ptBR.md)
+* Veja [HISTORY](HISTORY.ptBR.md)
 
 
 ## Contribuições
 
-* Veja [CONTRIBUTING.ptBR.md](CONTRIBUTING.ptBR.md)
+* Veja [CONTRIBUTING](CONTRIBUTING.ptBR.md)
 
 
 ## Licenciamento
