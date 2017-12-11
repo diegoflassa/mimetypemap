@@ -16,6 +16,7 @@ Obtenha a versão mais recente do código no Github utilizando o Git, ou baixe o
 
 ## Building
 
+Este projeto usa [Maven](https://maven.apache.org/). Por favor, veja o link a seguir para informações adicionais sobre sua [instalação](https://maven.apache.org/install.html).  
 Você pode gerar a biblioteca a partir do fonte através do commando abaixo, no console, na pasta-raiz do projeto.
 
 ```maven
@@ -32,7 +33,7 @@ Os seguintes arquivos serão gerados na pasta "target"
 
 ## QuickStart
 
-Adicione o arquivo .jar em seu projeto e use:
+Adicione o arquivo mimetypemap-x.x.x.jar em seu projeto e use:
 
 
 Obtêm uma instância do MimeTypeMap

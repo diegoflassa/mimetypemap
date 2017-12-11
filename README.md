@@ -16,6 +16,7 @@ Get the latest code from GitHub using Git or download the repository as a ZIP fi
 
 ## Building
 
+This project uses [Maven](https://maven.apache.org/). Please refer to the following for additional information on how to [install it](https://maven.apache.org/install.html).  
 You may build the library from the source by simply running the command bellow, in the console, from the project root folder.
 
 ```maven
@@ -33,7 +34,7 @@ The following files will be generated in the "target" folder
 
 ## QuickStart
 
-Add the .jar file to your project and use:
+Add the mimetypemap-x.x.x.jar file to your project and use:
 
 
 Obtain a MimeTypeMap instance
